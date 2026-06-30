@@ -2279,7 +2279,7 @@
       </div>
     </div>
 
-    <form class="cta-form" id="cs-leadform" action="https://xtratech.us18.list-manage.com/subscribe/post?u=859ff0560bf14ca6c051f7f8e&amp;id=4774a6baa8&amp;f_id=0017abe6f0" method="post" target="_blank" novalidate>
+    <form class="cta-form" id="cs-leadform" action="https://xtratech.us18.list-manage.com/subscribe/post?u=859ff0560bf14ca6c051f7f8e&amp;id=4774a6baa8&amp;f_id=0016abe6f0" method="post" target="_blank" novalidate>
       <div class="form-title">Visszahívást kérek</div>
       <div class="form-subtitle">// 30 másodperc alatt kitölthető</div>
       <div class="form-required-note"><span class="req" style="color:var(--accent-orange)">*</span> A csillaggal jelölt mezők kötelezőek</div>
@@ -2314,8 +2314,8 @@
         </select>
       </div>
       <div class="form-group">
-        <label class="form-label" for="mce-MMERGE19">Mi érdekel?<span class="req">*</span></label>
-        <select name="MMERGE19" id="mce-MMERGE19" class="form-select" required>
+        <label class="form-label" for="mce-MMERGE20">Mi érdekel?<span class="req">*</span></label>
+        <select name="MMERGE20" id="mce-MMERGE20" class="form-select" required>
           <option value="">Válassz…</option>
           <option value="Az egész akció érdekel">Az egész akció érdekel</option>
           <option value="JOSKIN pótkocsi / gép">JOSKIN pótkocsi / gép</option>
@@ -2324,8 +2324,8 @@
           <option value="Elektromos alkatrészek">Elektromos alkatrészek (akkumulátor...)</option>
           <option value="Gépalkatrészek">Gépalkatrészek (bálafogó, kézifék, rugós fog...)</option>
           <option value="Szerszám &amp; emelés">Szerszám &amp; emelés (fúrócsavarozó, hidraulikus emelő)</option>
-          <option value="Merchandise">JCB napszemüveg / hátitáska / merch</option>
-          <option value="Egyéb">Egyéb — majd elmondom telefonon</option>
+          <option value="Merch">JCB napszemüveg / hátitáska / merch</option>
+          <option value="Egyéb - majd elmondom telefonon">Egyéb — majd elmondom telefonon</option>
         </select>
       </div>
 
@@ -2404,7 +2404,7 @@
 
   // Gépajánlat "Érdeklődöm" – előválasztja a JOSKIN opciót és a kapcsolat-formhoz görget
   window.csSelectMachine = function(model) {
-    const sel = document.getElementById('mce-MMERGE19');
+    const sel = document.getElementById('mce-MMERGE20');
     if (sel) {
       const opt = Array.from(sel.options).find(o => o.value === 'JOSKIN pótkocsi / gép');
       if (opt) sel.value = opt.value;
